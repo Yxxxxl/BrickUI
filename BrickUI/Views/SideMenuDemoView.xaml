@@ -1,4 +1,4 @@
-<UserControl
+<Page
     x:Class="BrickUI.Views.SideMenuDemoView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -65,4 +65,4 @@
             </controls:SideMenu.RightContent>
         </controls:SideMenu>
     </Grid>
-</UserControl>
+</Page>

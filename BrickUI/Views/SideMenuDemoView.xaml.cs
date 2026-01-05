@@ -3,12 +3,12 @@ using System.Windows.Controls;
 
 namespace BrickUI.Views
 {
-    public partial class SideMenuDemoView : UserControl
+    public partial class SideMenuDemoView : Page
     {
-        public SideMenuDemoView()
+        public SideMenuDemoView(SideMenuDemoViewModel viewmodel)
         {
             InitializeComponent();
-            DataContext = new SideMenuDemoViewModel();
+            DataContext = viewmodel;
         }
     }
 }

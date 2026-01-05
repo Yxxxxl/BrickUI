@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrickUI.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,12 @@ namespace BrickUI.Views
     /// <summary>
     /// LogConsoleView.xaml 的交互逻辑
     /// </summary>
-    public partial class LogConsoleView : UserControl
+    public partial class LogConsoleView : Page
     {
-        public LogConsoleView()
+        public LogConsoleView(LogConsoleViewModel viewmodel)
         {
             InitializeComponent();
+            DataContext = viewmodel;
         }
     }
 }
