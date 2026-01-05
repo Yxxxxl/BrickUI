@@ -1,0 +1,14 @@
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.csproj.AssemblyReference.cache
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\LogConsole\LogConsole.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls_MarkupCompile.cache
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls_MarkupCompile.lref
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\bin\Debug\BrickUI.Controls.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\bin\Debug\BrickUI.Controls.pdb
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\LogConsole\LogConsole.baml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.g.resources
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.Properties.Resources.resources
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.csproj.GenerateResource.cache
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.csproj.CoreCompileInputs.cache
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.pdb
