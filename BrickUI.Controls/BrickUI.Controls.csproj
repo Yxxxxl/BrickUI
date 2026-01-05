@@ -48,11 +48,16 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SideMenu\BoolToVisibilityConverter.cs" />
     <Compile Include="LogConsole\LogConsole.xaml.cs">
       <DependentUpon>LogConsole.xaml</DependentUpon>
     </Compile>
     <Compile Include="LogConsole\LogEntry.cs" />
     <Compile Include="LogConsole\LogSeverity.cs" />
+    <Compile Include="SideMenu\SideMenu.xaml.cs">
+      <DependentUpon>SideMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SideMenu\SideMenuItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -79,6 +84,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="LogConsole\LogConsole.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SideMenu\SideMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

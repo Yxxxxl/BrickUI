@@ -12,3 +12,5 @@ D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.csproj.G
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.csproj.CoreCompileInputs.cache
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.dll
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\BrickUI.Controls.pdb
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\SideMenu\SideMenu.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI.Controls\obj\Debug\SideMenu\SideMenu.baml

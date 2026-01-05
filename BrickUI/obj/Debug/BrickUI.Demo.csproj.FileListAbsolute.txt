@@ -35,3 +35,11 @@ D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI.Demo.csproj.CoreCompileInp
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI..9F3E80A9.Up2Date
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI.exe
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI.pdb
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI.exe.config
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuDemoView.baml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuDemoView.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
