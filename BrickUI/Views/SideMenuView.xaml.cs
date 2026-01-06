@@ -3,9 +3,9 @@ using System.Windows.Controls;
 
 namespace BrickUI.Views
 {
-    public partial class SideMenuDemoView : Page
+    public partial class SideMenuView : Page
     {
-        public SideMenuDemoView(SideMenuDemoViewModel viewmodel)
+        public SideMenuView(SideMenuViewModel viewmodel)
         {
             InitializeComponent();
             DataContext = viewmodel;

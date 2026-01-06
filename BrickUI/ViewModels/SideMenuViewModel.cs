@@ -6,12 +6,12 @@ using System.Collections.ObjectModel;
 
 namespace BrickUI.ViewModels
 {
-    public class SideMenuDemoViewModel : ObservableObject
+    public class SideMenuViewModel : ObservableObject
     {
         private SideMenuItem _selectedItem;
         private string _statusText;
 
-        public SideMenuDemoViewModel()
+        public SideMenuViewModel()
         {
             StatusText = "Ready";
             ItemCommand = new RelayCommand<SideMenuItem>(OnItemInvoked);

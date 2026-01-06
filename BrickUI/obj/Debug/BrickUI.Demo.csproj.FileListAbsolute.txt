@@ -40,6 +40,12 @@ D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Material.d
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Core.xml
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\MahApps.Metro.IconPacks.Material.xml
 D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\BrickUI.exe.config
-D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuDemoView.baml
-D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuDemoView.g.cs
-D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuView.baml
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\obj\Debug\Views\SideMenuView.g.cs
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\YXL\Code\YXLDemo\BrickUI\BrickUI\bin\Debug\Microsoft.Xaml.Behaviors.xml
