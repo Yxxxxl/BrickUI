@@ -1,4 +1,4 @@
-﻿using BrickUI.Controls.LogConsole;
+﻿using BrickUI.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;

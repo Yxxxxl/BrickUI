@@ -21,19 +21,19 @@ namespace BrickUI.DemoforDontnet.ViewModels
         #endregion
 
         #region Fields
+
+        #endregion
+
+        #region Properties
         [ObservableProperty]
         private object view;
         #endregion
 
-        #region Properties
-
-        #endregion
-
         #region Commands
         [RelayCommand]
-        private void Click() 
+        private void Loaded()
         {
-            Debug.WriteLine("Button Clicked");
+      
         }
         #endregion
 

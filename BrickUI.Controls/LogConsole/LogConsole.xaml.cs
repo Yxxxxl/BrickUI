@@ -16,7 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-namespace BrickUI.Controls.LogConsole
+namespace BrickUI.Controls
 {
     public partial class LogConsole : UserControl
     {

@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace BrickUI.Controls.SideMenu
+namespace BrickUI.Controls
 {
     public partial class SideMenu : UserControl
     {
@@ -34,6 +34,10 @@ namespace BrickUI.Controls.SideMenu
 
         public static readonly DependencyProperty RightContentProperty =
             DependencyProperty.Register(nameof(RightContent), typeof(object), typeof(SideMenu));
+
+        public static readonly DependencyProperty MenuBackgroundProperty =
+            DependencyProperty.Register(nameof(MenuBackground), typeof(System.Windows.Media.Brush), typeof(SideMenu),
+                new PropertyMetadata(new System.Windows.Media.SolidColorBrush(System.Windows.Media.Color.FromRgb(0x0B, 0x12, 0x20))));
 
         public static readonly DependencyProperty ToggleBackgroundCollapsedProperty =
             DependencyProperty.Register(nameof(ToggleBackgroundCollapsed), typeof(System.Windows.Media.Brush), typeof(SideMenu),
@@ -104,6 +108,12 @@ namespace BrickUI.Controls.SideMenu
         {
             get => GetValue(RightContentProperty);
             set => SetValue(RightContentProperty, value);
+        }
+
+        public System.Windows.Media.Brush MenuBackground
+        {
+            get => (System.Windows.Media.Brush)GetValue(MenuBackgroundProperty);
+            set => SetValue(MenuBackgroundProperty, value);
         }
 
         public System.Windows.Media.Brush ToggleBackgroundCollapsed

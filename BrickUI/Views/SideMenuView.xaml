@@ -9,58 +9,13 @@
     <Grid Background="#F8FAFC">
         <controls:SideMenu
             ItemsSource="{Binding MenuItems}"
+            MenuBackground="#0B1220"
             SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
             ToggleBackgroundCollapsed="#F8FAFC"
             ToggleForegroundCollapsed="#0F172A">
             <controls:SideMenu.RightContent>
                 <Grid Margin="24">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="*" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <StackPanel Grid.Row="0">
-                        <TextBlock
-                            FontSize="22"
-                            FontWeight="SemiBold"
-                            Foreground="#0F172A"
-                            Text="Side Menu Demo" />
-                        <TextBlock
-                            Margin="0,6,0,0"
-                            Foreground="#64748B"
-                            Text="Left menu collapses and expands with MVVM bindings." />
-                    </StackPanel>
-                    <Border
-                        Grid.Row="1"
-                        Margin="0,16,0,16"
-                        Padding="16"
-                        Background="#FFFFFF"
-                        BorderBrush="#E2E8F0"
-                        BorderThickness="1"
-                        CornerRadius="6">
-                        <StackPanel>
-                            <TextBlock
-                                FontSize="16"
-                                FontWeight="SemiBold"
-                                Foreground="#0F172A"
-                                Text="Selected" />
-                            <TextBlock
-                                Margin="0,8,0,0"
-                                FontSize="14"
-                                Foreground="#334155"
-                                Text="{Binding SelectedItem.Text, FallbackValue=Select a menu item}" />
-                        </StackPanel>
-                    </Border>
-                    <Border
-                        Grid.Row="2"
-                        Padding="12"
-                        Background="#E2E8F0"
-                        CornerRadius="4">
-                        <TextBlock
-                            FontSize="12"
-                            Foreground="#334155"
-                            Text="{Binding StatusText}" />
-                    </Border>
+                    <ContentControl Content="{Binding ShowContent}" />
                 </Grid>
             </controls:SideMenu.RightContent>
         </controls:SideMenu>

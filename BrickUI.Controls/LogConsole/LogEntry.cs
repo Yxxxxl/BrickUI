@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Media;
 
-namespace BrickUI.Controls.LogConsole
+namespace BrickUI.Controls
 {
     public sealed class LogEntry
     {

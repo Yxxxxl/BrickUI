@@ -1,4 +1,4 @@
-namespace BrickUI.Controls.LogConsole
+namespace BrickUI.Controls
 {
     public enum LogSeverity
     {

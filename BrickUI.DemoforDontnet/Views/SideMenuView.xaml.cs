@@ -1,9 +1,9 @@
-using BrickUI.ViewModels;
+using BrickUI.DemoforDontnet.ViewModels;
 using System.Windows.Controls;
 
 namespace BrickUI.DemoforDontnet.Views
 {
-    public partial class SideMenuView : Page
+    public partial class SideMenuView : UserControl
     {
         public SideMenuView(SideMenuViewModel viewmodel)
         {

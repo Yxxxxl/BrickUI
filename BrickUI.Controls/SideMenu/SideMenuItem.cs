@@ -1,6 +1,6 @@
 using System.Windows.Input;
 
-namespace BrickUI.Controls.SideMenu
+namespace BrickUI.Controls
 {
     public class SideMenuItem
     {

@@ -1,53 +1,63 @@
+using BrickUI.Controls.LogConsole;
 using BrickUI.Controls.SideMenu;
+using BrickUI.DemoforDontnet.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MahApps.Metro.IconPacks;
+using Microsoft.Extensions.DependencyInjection;
 using System.Collections.ObjectModel;
 
 namespace BrickUI.DemoforDontnet.ViewModels
 {
-    public class SideMenuViewModel : ObservableObject
+    public partial class SideMenuViewModel : ObservableObject
     {
-        private SideMenuItem _selectedItem;
-        private string _statusText;
-
+        #region Constructor
         public SideMenuViewModel()
         {
-            StatusText = "Ready";
             ItemCommand = new RelayCommand<SideMenuItem>(OnItemInvoked);
 
-            MenuItems = new ObservableCollection<SideMenuItem>
+            menuItems = new ObservableCollection<SideMenuItem>
             {
-                new SideMenuItem("Dashboard", new PackIconMaterial { Kind = PackIconMaterialKind.ViewDashboard, Width = 18, Height = 18 }, ItemCommand),
-                new SideMenuItem("Devices", new PackIconMaterial { Kind = PackIconMaterialKind.Devices, Width = 18, Height = 18 }, ItemCommand),
+                new SideMenuItem("Home", new PackIconMaterial { Kind = PackIconMaterialKind.ViewDashboard, Width = 18, Height = 18 }, ItemCommand),
+                new SideMenuItem("LogConsole", new PackIconMaterial { Kind = PackIconMaterialKind.Devices, Width = 18, Height = 18 }, ItemCommand),
                 new SideMenuItem("Reports", new PackIconMaterial { Kind = PackIconMaterialKind.ChartLine, Width = 18, Height = 18 }, ItemCommand),
                 new SideMenuItem("Settings", new PackIconMaterial { Kind = PackIconMaterialKind.CogOutline, Width = 18, Height = 18 }, ItemCommand),
             };
 
-            SelectedItem = MenuItems[0];
+            selectedItem = menuItems[0];
         }
+        #endregion
 
-        public ObservableCollection<SideMenuItem> MenuItems { get; }
+        #region Fields
+
+        #endregion
+
+        #region Properties
+
+        [ObservableProperty]
+        private object showView;
+
+        [ObservableProperty]
+        private SideMenuItem selectedItem;
+
+        [ObservableProperty]
+        private ObservableCollection<SideMenuItem> menuItems;
+
+        #endregion
+
+        #region Commnads
+
+        #endregion
+
+        #region Methods
+
+        #endregion
+
+        #region EventCallBack
+
+        #endregion
 
         public RelayCommand<SideMenuItem> ItemCommand { get; }
-
-        public SideMenuItem SelectedItem
-        {
-            get => _selectedItem;
-            set
-            {
-                if (SetProperty(ref _selectedItem, value) && value != null)
-                {
-                    StatusText = "Selected: " + value.Text;
-                }
-            }
-        }
-
-        public string StatusText
-        {
-            get => _statusText;
-            set => SetProperty(ref _statusText, value);
-        }
 
         private void OnItemInvoked(SideMenuItem item)
         {
@@ -56,7 +66,14 @@ namespace BrickUI.DemoforDontnet.ViewModels
                 return;
             }
 
-            StatusText = "Command: " + item.Text;
+            if (item.Text == "Home")
+            {
+                ShowView = null;
+            }
+            else if (item.Text == "LogConsole")
+            {
+                ShowView = App.Services.GetRequiredService<LogConsoleView>();
+            }
         }
     }
 }

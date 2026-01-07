@@ -16,7 +16,10 @@
         </i:EventTrigger>
     </i:Interaction.Triggers>
     <Grid>
-        <Button Command="{Binding ClickCommand}" Width="100" Height="30"/>
+        <Button
+            Width="100"
+            Height="30"
+            Command="{Binding ClickCommand}" />
         <!--<ContentControl Content="{Binding View}" />-->
     </Grid>
 </Window>

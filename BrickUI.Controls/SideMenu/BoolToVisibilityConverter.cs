@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace BrickUI.Controls.SideMenu
+namespace BrickUI.Controls
 {
     public class BoolToVisibilityConverter : IValueConverter
     {
