@@ -26,25 +26,32 @@
                             <Setter.Value>
                                 <ControlTemplate TargetType="ScrollBar">
                                     <Grid Background="{TemplateBinding Background}">
-                                        <Track x:Name="PART_Track">
-                                            <Track.DecreaseRepeatButton>
+                                        <local:FixedThumbTrack
+                                            x:Name="PART_Track"
+                                            IsDirectionReversed="True"
+                                            Maximum="{TemplateBinding Maximum}"
+                                            Minimum="{TemplateBinding Minimum}"
+                                            Orientation="{TemplateBinding Orientation}"
+                                            Value="{TemplateBinding Value}"
+                                            ThumbLength="28">
+                                            <local:FixedThumbTrack.DecreaseRepeatButton>
                                                 <RepeatButton
-                                                    Command="ScrollBar.LineUpCommand"
+                                                    Command="ScrollBar.PageUpCommand"
                                                     IsHitTestVisible="False"
                                                     Opacity="0"
                                                     Style="{x:Null}" />
-                                            </Track.DecreaseRepeatButton>
-                                            <Track.IncreaseRepeatButton>
+                                            </local:FixedThumbTrack.DecreaseRepeatButton>
+                                            <local:FixedThumbTrack.IncreaseRepeatButton>
                                                 <RepeatButton
-                                                    Command="ScrollBar.LineDownCommand"
+                                                    Command="ScrollBar.PageDownCommand"
                                                     IsHitTestVisible="False"
                                                     Opacity="0"
                                                     Style="{x:Null}" />
-                                            </Track.IncreaseRepeatButton>
-                                            <Track.Thumb>
+                                            </local:FixedThumbTrack.IncreaseRepeatButton>
+                                            <local:FixedThumbTrack.Thumb>
                                                 <Thumb Background="#475569" />
-                                            </Track.Thumb>
-                                        </Track>
+                                            </local:FixedThumbTrack.Thumb>
+                                        </local:FixedThumbTrack>
                                     </Grid>
                                 </ControlTemplate>
                             </Setter.Value>

@@ -54,6 +54,7 @@
     <Compile Include="LogConsole\LogConsole.xaml.cs">
       <DependentUpon>LogConsole.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LogConsole\FixedThumbTrack.cs" />
     <Compile Include="LogConsole\LogEntry.cs" />
     <Compile Include="LogConsole\LogSeverity.cs" />
     <Compile Include="SideMenu\SideMenu.xaml.cs">

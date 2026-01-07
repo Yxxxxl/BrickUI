@@ -1,5 +1,5 @@
-using BrickUI.Controls.LogConsole;
-using BrickUI.Controls.SideMenu;
+using BrickUI.Controls;
+using BrickUI.Controls;
 using BrickUI.DemoforDontnet.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
