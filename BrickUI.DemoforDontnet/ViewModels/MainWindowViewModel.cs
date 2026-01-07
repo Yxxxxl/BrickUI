@@ -1,4 +1,4 @@
-﻿using BrickUI.Views;
+﻿using BrickUI.DemoforDontnet.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrickUI.ViewModels
+namespace BrickUI.DemoforDontnet.ViewModels
 {
     public partial class MainWindowViewModel : ObservableObject
     {

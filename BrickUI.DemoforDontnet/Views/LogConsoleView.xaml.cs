@@ -14,17 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BrickUI.Views
+namespace BrickUI.DemoforDontnet.Views
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// LogConsoleView.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class LogConsoleView : Page
     {
-        public MainWindow(MainWindowViewModel vm)
-        {           
+        public LogConsoleView(LogConsoleViewModel viewmodel)
+        {
             InitializeComponent();
-            DataContext = vm;
+            DataContext = viewmodel;
         }
     }
 }
